@@ -4,5 +4,6 @@ def reverse_each_word(statement)
   tnemetats = ""
   (reversement.length-1).times { |drow| tnemetats += reversement[drow] + " " }
   tnemetats += reversement[-1]
+  puts tnemetats
   tnemetats
 end
